@@ -1,0 +1,98 @@
+/* Favoritrecept – Ćevapi (svenska) */
+:root{
+  --bg: #0f172a;
+  --panel: #111827;
+  --text: #f9fafb;
+  --muted: #cbd5e1;
+  --brand: #f59e0b;
+  --accent: #22c55e;
+  --card: #0b1220;
+  --border: #1f2937;
+  --shadow: 0 10px 24px rgba(0,0,0,.35);
+}
+
+*{ box-sizing: border-box; }
+html, body{ height:100%; }
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  line-height:1.6;
+  background: radial-gradient(1200px 800px at 10% 0%, #0b1220 0%, var(--bg) 60%, #000 100%);
+  color: var(--text);
+}
+
+.container{
+  width:min(980px, 92vw);
+  margin-inline:auto;
+  padding: 1rem;
+}
+
+.site-header{
+  background: linear-gradient(135deg, #0b1220, #0f172a 60%, #050a16 100%);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.header-inner{
+  padding-block: 2.2rem;
+}
+
+h1{
+  font-size: clamp(2rem, 3.2vw + 1rem, 3rem);
+  margin:0 0 .25rem 0;
+}
+
+.lead{
+  margin: .25rem 0 1.25rem 0;
+  color: var(--muted);
+  max-width: 70ch;
+}
+
+.hero{
+  margin: 1.25rem 0 0 0;
+  background: #060b17;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: clip;
+  box-shadow: var(--shadow);
+}
+.hero img{ display:block; width:100%; height:auto; }
+.hero figcaption{
+  padding: .75rem 1rem;
+  color: var(--muted);
+  font-size: .95rem;
+  border-top: 1px solid var(--border);
+}
+
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: var(--shadow);
+}
+
+h2{
+  margin-top:.25rem;
+  font-size: clamp(1.25rem, 1.2vw + .9rem, 1.6rem);
+}
+
+ul, ol{ padding-left: 1.25rem; }
+li{ margin:.25rem 0; }
+
+.steps-figure{
+  margin-top: 1rem;
+  border-top: 1px dashed var(--border);
+  padding-top: 1rem;
+}
+
+.site-footer{
+  margin-top: 2rem;
+  padding: 1.25rem 0 2.5rem 0;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+.site-footer a{ color: var(--brand); text-decoration:none; }
+.site-footer a:hover{ text-decoration: underline; }
+.small{ font-size:.9rem; color:#9ca3af; }

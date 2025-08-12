@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Illustration av Ćevapi i somun med lök och kajmak">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3d9a2"/>
+      <stop offset="100%" stop-color="#d7a86e"/>
+    </linearGradient>
+    <linearGradient id="meat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6b3f2a"/>
+      <stop offset="100%" stop-color="#3b2218"/>
+    </linearGradient>
+    <linearGradient id="onion" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5e9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="800" cy="500" rx="540" ry="260" fill="url(#glow)" opacity=".7"/>
+  
+  <!-- Plate -->
+  <ellipse cx="800" cy="560" rx="500" ry="200" fill="#e5e7eb"/>
+  <ellipse cx="800" cy="565" rx="460" ry="180" fill="#f9fafb"/>
+  <ellipse cx="800" cy="590" rx="420" ry="150" fill="#eef2ff"/>
+
+  <!-- Somun (pita bread) -->
+  <g transform="translate(420,420)">
+    <ellipse cx="380" cy="120" rx="360" ry="110" fill="url(#bread)"/>
+    <ellipse cx="380" cy="95" rx="360" ry="110" fill="#f8e2b6"/>
+    <!-- grill marks -->
+    <g opacity=".2" stroke="#7a5533" stroke-width="6">
+      <path d="M140,70 C200,85 260,90 320,85" fill="none"/>
+      <path d="M220,55 C300,70 380,74 460,68" fill="none"/>
+      <path d="M300,40 C380,55 460,58 540,52" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Cevapi rolls -->
+  <g transform="translate(480,470)">
+    <g>
+      <rect x="0" y="0" rx="18" ry="18" width="160" height="36" fill="url(#meat)"/>
+      <rect x="170" y="-10" rx="18" ry="18" width="160" height="36" fill="url(#meat)"/>
+      <rect x="340" y="-5" rx="18" ry="18" width="160" height="36" fill="url(#meat)"/>
+      <rect x="80" y="20" rx="18" ry="18" width="160" height="36" fill="url(#meat)"/>
+      <rect x="250" y="15" rx="18" ry="18" width="160" height="36" fill="url(#meat)"/>
+    </g>
+    <!-- highlights -->
+    <g opacity=".2">
+      <rect x="0" y="3" rx="18" ry="18" width="160" height="10" fill="#fff"/>
+      <rect x="170" y="-7" rx="18" ry="18" width="160" height="10" fill="#fff"/>
+      <rect x="340" y="-2" rx="18" ry="18" width="160" height="10" fill="#fff"/>
+      <rect x="80" y="23" rx="18" ry="18" width="160" height="10" fill="#fff"/>
+      <rect x="250" y="18" rx="18" ry="18" width="160" height="10" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- Bowls: onion + kajmak + ajvar -->
+  <g transform="translate(260,580)">
+    <ellipse cx="0" cy="0" rx="120" ry="44" fill="#e5e7eb"/>
+    <ellipse cx="0" cy="-6" rx="120" ry="44" fill="#ffffff"/>
+    <ellipse cx="0" cy="-10" rx="90" ry="28" fill="url(#onion)"/>
+    <g opacity=".25">
+      <circle cx="-30" cy="-10" r="6" fill="#a855f7"/>
+      <circle cx="-12" cy="-6" r="5" fill="#a855f7"/>
+      <circle cx="8" cy="-12" r="6" fill="#a855f7"/>
+      <circle cx="26" cy="-4" r="5" fill="#a855f7"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-size="22" fill="#cbd5e1">Lök</text>
+  </g>
+
+  <g transform="translate(1340,600)">
+    <ellipse cx="0" cy="0" rx="120" ry="44" fill="#e5e7eb"/>
+    <ellipse cx="0" cy="-6" rx="120" ry="44" fill="#ffffff"/>
+    <ellipse cx="0" cy="-10" rx="90" ry="28" fill="#fde68a"/>
+    <text x="0" y="50" text-anchor="middle" font-size="22" fill="#cbd5e1">Kajmak</text>
+  </g>
+
+  <g transform="translate(1150,640)">
+    <ellipse cx="0" cy="0" rx="120" ry="44" fill="#e5e7eb"/>
+    <ellipse cx="0" cy="-6" rx="120" ry="44" fill="#ffffff"/>
+    <ellipse cx="0" cy="-10" rx="90" ry="28" fill="#ef4444"/>
+    <text x="0" y="50" text-anchor="middle" font-size="22" fill="#cbd5e1">Ajvar</text>
+  </g>
+
+  <text x="800" y="820" text-anchor="middle" font-size="64" font-family="Inter, Arial, sans-serif" fill="#f59e0b">Ćevapi</text>
+  <text x="800" y="864" text-anchor="middle" font-size="28" font-family="Inter, Arial, sans-serif" fill="#e5e7eb">Bosnisk klassiker i somun</text>
+</svg>
